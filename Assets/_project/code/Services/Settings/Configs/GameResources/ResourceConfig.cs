@@ -1,6 +1,7 @@
+using Services.GameResources;
 using UnityEngine;
 
-namespace Services.GameResources.Configs
+namespace Services.Settings.Configs.GameResources
 {
 	[CreateAssetMenu(fileName = "config resource", menuName = "SETTINGS/Configs/Resources/ResourceConfig", order = 0)]
 	public class ResourceConfig : ScriptableObject
@@ -8,7 +9,7 @@ namespace Services.GameResources.Configs
 		public string typeId;
 		public string titleLocKey;
 		public string descriptionLocKey;
-		
+
 		public ResourceType type;
 		public int amount;
 	}

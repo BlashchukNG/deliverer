@@ -1,4 +1,6 @@
 using System.Threading.Tasks;
+using Services.Settings.Configs.App;
+using Services.Settings.Configs.Game;
 using UnityEngine;
 
 namespace Services.Settings

@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: Lobby Shared Data
   m_EditorClassIdentifier: 
   m_TableCollectionName: Lobby
-  m_TableCollectionNameGuidString: 00000000000000000000000000000000
-  m_Entries: []
+  m_TableCollectionNameGuidString: 6cd060889ab84d64e82d387745a3b758
+  m_Entries:
+  - m_Id: 92294025216
+    m_Key: lbl_loading
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

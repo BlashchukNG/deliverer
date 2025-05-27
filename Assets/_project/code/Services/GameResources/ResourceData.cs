@@ -1,5 +1,5 @@
 using System;
-using Services.GameResources.Configs;
+using Services.Settings.Configs.GameResources;
 
 namespace Services.GameResources
 {
