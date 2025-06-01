@@ -24,9 +24,7 @@ namespace Services.Settings
 		public Task<GameSettings> LoadGameSettingsAsync()
 		{
 			_gameSettings = Resources.Load<GameSettings>(PATH_GAME_SETTINGS);
-
 			Debug.Log("Settings provider: loaded");
-
 			return Task.FromResult(_gameSettings);
 		}
 	}

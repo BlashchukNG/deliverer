@@ -10,7 +10,12 @@ namespace infrastructure.Roots.AppRoot
 
 		private void Awake() => HideLoadingScreen();
 
-		public void ShowLoadingScreen() => _loadingScreen.Show();
+		public void ShowLoadingScreen()
+		{
+			print(1);
+			_loadingScreen.Show();
+		}
+
 		public void HideLoadingScreen() => _loadingScreen.Hide();
 
 		public void AttachSceneUI(GameObject sceneUI)

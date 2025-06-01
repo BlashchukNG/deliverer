@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_project/scenes/boot.unity
+    guid: f295f20c10290c7469691bfdbd6564b7
+  - enabled: 1
+    path: Assets/_project/scenes/lobby.unity
+    guid: 8016cc83c21d1a64994dde6e67bf16b5
+  - enabled: 1
+    path: Assets/_project/scenes/gameplay.unity
+    guid: 511b3132bb616e64a94d3b70a38a017b
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 568b7fb024d47bf41bf3e377538aa5d7, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}

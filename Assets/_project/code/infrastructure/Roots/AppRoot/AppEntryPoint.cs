@@ -68,11 +68,11 @@ namespace infrastructure.Roots.AppRoot
 			
 			_diContainer.RegisterInstance(sceneObjectFactory.CreateCoroutineRunner());
 			_diContainer.RegisterInstance(sceneObjectFactory.CreateUIRootView());
+			
+			_diContainer.RegisterInstance<IGameStateProvider>(new PlayerPrefsGameStateProvider(_diContainer));
 
 			_sceneLoaderService = new SceneLoaderService(_diContainer);
 			_diContainer.RegisterInstance(_sceneLoaderService);
-
-			_diContainer.RegisterInstance<IGameStateProvider>(new PlayerPrefsGameStateProvider(_diContainer));
 		}
 	}
 }
